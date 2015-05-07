@@ -1,0 +1,199 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+/*brand image*/
+img {
+    height: 35px;
+    width: auto;
+}
+/*contact and social bar*/
+.contact li {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+
+.info_reen_com {
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    text-align: left;
+    left: 392.937px;
+    top: 12.792px;
+    z-index: 231;
+}
+
+._00__123__456_78_90 {
+    font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    text-align: left;
+    left: 514.648px;
+    top: 11.792px;
+    z-index: 229;
+}
+.social {
+	font-size: 12px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    line-height: 1.2;
+    text-align: right;
+    left: 514.648px;
+    top: 11.792px;
+    z-index: 229;
+    margin-left: 550px;
+}
+.navbar-brand {
+	margin-left: 135px;
+
+}
+/*navigation nav bar*/
+.navbar {
+  
+  left: 0px;
+  top: 0px;
+  
+  z-index: 217;
+}
+.nav {
+  
+  left: 0px;
+  top: 0px;
+  
+  z-index: 215;
+}
+.Home {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  
+  left: 623.937px;
+  top: 89.5px;
+  z-index: 214;
+}
+.Portfolio {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  
+  left: 706.938px;
+  top: 89.5px;
+  z-index: 213;
+}
+.Blog {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+
+  left: 824.938px;
+  top: 89.5px;
+  z-index: 212;
+}
+.Pages {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+ 
+  left: 903.938px;
+  top: 89.5px;
+  z-index: 211;
+}
+.Features {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+ 
+  left: 987.938px;
+  top: 89.5px;
+  z-index: 210;
+}
+.Mega_Menu {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+ 
+  left: 1098.938px;
+  top: 89.5px;
+  z-index: 209;
+}
+.Contact {
+  font-size: 15px;
+  font-family: "SourceSansPro";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+ 
+  left: 1220.938px;
+  top: 89.5px;
+  z-index: 208;
+}
+img {
+	height: auto;
+	width: auto;
+}
+p .Made_for_Designers_Create_your_online_portfolio {
+  font-size: 78px;
+  font-family: "Lato";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.128;
+  text-align: center;
+  
+  left: 474.119px;
+  top: 529.538px;
+  width: 943px;
+  height: 150px;
+  z-index: 179;
+}
+.jumbotron{
+	background-image: url(../images/background.png);
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 650px;
+}
+.Beautiful__Clean__Responsive__REEN_is_a_high_qu {
+  font-size: 44px;
+  font-family: "Lato";
+  color: rgb(80, 106, 133);
+  font-weight: bold;
+  line-height: 1.227;
+  text-align: center;
+ 
+  left: 564.538px;
+  top: 1211.135px;
+  width: 785px;
+  height: 166px;
+  z-index: 130;
+}
+
+
+
