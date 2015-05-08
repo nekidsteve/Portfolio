@@ -2,11 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 /*brand image*/
+
 img {
     height: 35px;
     width: auto;
 }
 /*contact and social bar*/
+
 .contact li {
     display: inline-block;
     margin-left: 100px;
@@ -34,8 +36,9 @@ img {
     top: 11.792px;
     z-index: 229;
 }
+
 .social {
-	font-size: 12px;
+    font-size: 12px;
     font-family: "SourceSansPro";
     color: rgb(80, 106, 133);
     line-height: 1.2;
@@ -45,155 +48,207 @@ img {
     z-index: 229;
     margin-left: 550px;
 }
-.navbar-brand {
-	margin-left: 135px;
 
+.navbar-brand {
+    margin-left: 135px;
 }
 /*navigation nav bar*/
-.navbar {
-  
-  left: 0px;
-  top: 0px;
-  
-  z-index: 217;
-}
-.nav {
-  
-  left: 0px;
-  top: 0px;
-  
-  z-index: 215;
-}
-.Home {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  
-  left: 623.937px;
-  top: 89.5px;
-  z-index: 214;
-}
-.Portfolio {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
-  
-  left: 706.938px;
-  top: 89.5px;
-  z-index: 213;
-}
-.Blog {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
 
-  left: 824.938px;
-  top: 89.5px;
-  z-index: 212;
+.navbar {
+    left: 0px;
+    top: 0px;
+    z-index: 217;
 }
+
+.nav {
+    left: 0px;
+    top: 0px;
+    z-index: 215;
+}
+
+.Home {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 623.937px;
+    top: 89.5px;
+    z-index: 214;
+}
+
+.Portfolio {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 706.938px;
+    top: 89.5px;
+    z-index: 213;
+}
+
+.Blog {
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 824.938px;
+    top: 89.5px;
+    z-index: 212;
+}
+
 .Pages {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
- 
-  left: 903.938px;
-  top: 89.5px;
-  z-index: 211;
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 903.938px;
+    top: 89.5px;
+    z-index: 211;
 }
+
 .Features {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
- 
-  left: 987.938px;
-  top: 89.5px;
-  z-index: 210;
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 987.938px;
+    top: 89.5px;
+    z-index: 210;
 }
+
 .Mega_Menu {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
- 
-  left: 1098.938px;
-  top: 89.5px;
-  z-index: 209;
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 1098.938px;
+    top: 89.5px;
+    z-index: 209;
 }
+
 .Contact {
-  font-size: 15px;
-  font-family: "SourceSansPro";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  text-align: center;
- 
-  left: 1220.938px;
-  top: 89.5px;
-  z-index: 208;
+    font-size: 15px;
+    font-family: "SourceSansPro";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    left: 1220.938px;
+    top: 89.5px;
+    z-index: 208;
 }
+
 img {
-	height: auto;
-	width: auto;
+    height: 50%;
+    width: 50%;
 }
+
 p .Made_for_Designers_Create_your_online_portfolio {
-  font-size: 78px;
-  font-family: "Lato";
-  color: rgb(255, 255, 255);
-  text-transform: uppercase;
-  line-height: 1.128;
-  text-align: center;
-  
-  left: 474.119px;
-  top: 529.538px;
-  width: 943px;
-  height: 150px;
-  z-index: 179;
+    font-size: 78px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.128;
+    text-align: center;
+    left: 474.119px;
+    top: 529.538px;
+    width: 943px;
+    height: 150px;
+    z-index: 179;
 }
-.jumbotron{
-	background-image: url(../images/background.png);
-	background-size: cover;
+
+.jumbotron {
+    background-image: url(../images/background.png);
+    background-size: cover;
     background-repeat: no-repeat;
     color: white;
     height: 650px;
 }
+
 .Beautiful__Clean__Responsive__REEN_is_a_high_qu {
-  font-size: 44px;
-  font-family: "Lato";
-  color: rgb(80, 106, 133);
-  font-weight: bold;
-  line-height: 1.227;
-  text-align: center;
- 
-  left: 564.538px;
-  top: 1211.135px;
-  width: 785px;
-  height: 166px;
-  z-index: 130;
+    font-size: 44px;
+    font-family: "Lato";
+    color: #506a85;
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+    left: 564.538px;
+    top: 1211.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 130;
 }
 
+.Beautiful__Clean__Responsive__REEN_is_a_high_qu li {
+    font-size: 16px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #506a85;
+    text-align: center;
+    list-style-type: none;
+}
 
+.passion {
+    font-family: "Lato", sans-serif;
+    color: #73879c;
+    font-size: 12px;
+}
 
+.whowe {
+    font-size: 26px;
+    font-family: "Lato";
+    color: rgb(80, 106, 133);
+    font-weight: bold;
+    line-height: 1.308;
+    text-align: left;
+    left: 474.002px;
+    top: 1438.264px;
+    width: 269px;
+    height: 168px;
+    z-index: 128;
+}
+
+#wwi {
+    text-align: right;
+    text-align: top;
+    font-size: 42px;
+    color: rgb(0, 188, 156);
+    font-weight: bold;
+}
+
+.bcr {
+    font-family: "Lato";
+    color: #506a85;
+    font-weight: bold;
+    line-height: 1.227;
+    text-align: center;
+    left: 564.538px;
+    top: 1211.135px;
+    width: 785px;
+    height: 166px;
+    z-index: 130;
+}
+
+.clw {
+    font-family: "Lato", sans-serif;
+    color: #73879c;
+    font-size: 12px;
+}
