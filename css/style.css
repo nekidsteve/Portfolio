@@ -20,33 +20,21 @@ img {
     font-family: "SourceSansPro";
     color: rgb(80, 106, 133);
     line-height: 1.2;
-    text-align: left;
-    left: 392.937px;
-    top: 12.792px;
-    z-index: 231;
+    
 }
 
 ._00__123__456_78_90 {
     font-size: 12px;
     font-family: "SourceSansPro";
     color: rgb(80, 106, 133);
-    line-height: 1.2;
-    text-align: left;
-    left: 514.648px;
-    top: 11.792px;
-    z-index: 229;
+    
 }
 
 .social {
     font-size: 12px;
     font-family: "SourceSansPro";
     color: rgb(80, 106, 133);
-    line-height: 1.2;
-    text-align: right;
-    left: 514.648px;
-    top: 11.792px;
-    z-index: 229;
-    margin-left: 550px;
+    
 }
 
 .navbar-brand {
