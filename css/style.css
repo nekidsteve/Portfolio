@@ -1,192 +1,160 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=Lato);
-/*brand image*/
 
-img {
-    height: 35px;
-    width: auto;
+body {
+    padding-top: 50px;
 }
-/*contact and social bar*/
 
-.contact li {
-    display: inline-block;
-    margin-left: 100px;
+.background {
+    background-color: rgb(245, 247, 251);
+    box-shadow: 0px 1px 0px 0px rgba(230, 233, 237, 0.004);
+    left: 0px;
+    top: 0px;
+    height: 40px;
+    z-index: 220;
+}
+
+.glyphs {
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 14px;
     margin-top: 16px;
 }
 
-.info_reen_com {
+.glyphs a {
     font-size: 12px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    line-height: 1.2;
-    
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin: -15px;
 }
 
-._00__123__456_78_90 {
+.email {
+    margin-left: 100px; 
+    margin-top: 16px;
+    color: #506a85;
     font-size: 12px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    
+    font-family: "Source Sans Pro", sans-serif;
 }
 
-.social {
+.phoneNumber {
+    margin-top: 16px;
     font-size: 12px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-left: 14px;
+    margin-top: 16px;
 }
 
-.navbar-brand {
-    margin-left: 135px;
-}
-/*navigation nav bar*/
-
-.navbar {
-    left: 0px;
-    top: 0px;
-    z-index: 217;
+.search {
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 16px;
+    margin-left: 122px;
+    margin-right: 100px;
 }
 
-.nav {
-    left: 0px;
-    top: 0px;
-    z-index: 215;
-}
-
-.Home {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
+#links li a {
+    font-size: 12px;
+    color: #506a85;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 623.937px;
-    top: 89.5px;
-    z-index: 214;
+    text-align: justify;
+    padding-right: 44px;
 }
 
-.Portfolio {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 706.938px;
-    top: 89.5px;
-    z-index: 213;
+.spacing {
+    padding-left: 10px;
 }
 
-.Blog {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 824.938px;
-    top: 89.5px;
-    z-index: 212;
+#brand {
+    /* REEN  */
+    margin-top: 12px;
+    margin-left: 100px;
+    margin-bottom: 12px;
+    width: 145px;
+    height: 36px;
 }
 
-.Pages {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 903.938px;
-    top: 89.5px;
-    z-index: 211;
+.dropdown li {
+  display: block;
 }
 
-.Features {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 987.938px;
-    top: 89.5px;
-    z-index: 210;
+.divider {
+  width: 85%;
 }
 
-.Mega_Menu {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 1098.938px;
-    top: 89.5px;
-    z-index: 209;
-}
-
-.Contact {
-    font-size: 15px;
-    font-family: "SourceSansPro";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    left: 1220.938px;
-    top: 89.5px;
-    z-index: 208;
-}
-
-img {
-    height: 50%;
-    width: 50%;
-}
-
-p .Made_for_Designers_Create_your_online_portfolio {
-    font-size: 78px;
-    font-family: "Lato";
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    line-height: 1.128;
-    text-align: center;
-    left: 474.119px;
-    top: 529.538px;
-    width: 943px;
-    height: 150px;
-    z-index: 179;
-}
-
-.jumbotron {
-    background-image: url(../images/background.png);
-    background-size: cover;
+.bannerImage {
+    background-image: url(images/bannerImage.png);
+    background-position: cover;
     background-repeat: no-repeat;
-    color: white;
-    height: 650px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    margin-top: -20px;
 }
 
-.Beautiful__Clean__Responsive__REEN_is_a_high_qu {
-    font-size: 44px;
-    font-family: "Lato";
+.designers {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Lato", sans-serif;
+    padding-top: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subheading1 {
+    color: #ffffff;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.startButton {
+  margin-top: 50px;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 50px;
+  margin-right: auto;
+  width: 220px;
+  height: 50px;
+  z-index: 179;
+  cursor: pointer;
+  margin-bottom: 150px;
+}
+
+.separation50 {
+  margin-top: 50px;
+}
+
+.separation25 {
+  margin-top: 25px;
+}
+
+.biography {
+    font-size: 64px;
+    font-family: "Lato" sans-serif;
     color: #506a85;
     font-weight: bold;
-    line-height: 1.227;
     text-align: center;
-    left: 564.538px;
-    top: 1211.135px;
-    width: 785px;
-    height: 166px;
-    z-index: 130;
+    margin-bottom: 10px;
 }
 
-.Beautiful__Clean__Responsive__REEN_is_a_high_qu li {
+.bioData ul li {
     font-size: 16px;
     font-family: "Source Sans Pro", sans-serif;
     color: #506a85;
@@ -194,49 +162,461 @@ p .Made_for_Designers_Create_your_online_portfolio {
     list-style-type: none;
 }
 
+.heart {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
+}
+
 .passion {
-    font-family: "Lato", sans-serif;
-    color: #73879c;
-    font-size: 12px;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
 }
 
-.whowe {
-    font-size: 26px;
-    font-family: "Lato";
-    color: rgb(80, 106, 133);
-    font-weight: bold;
-    line-height: 1.308;
-    text-align: left;
-    left: 474.002px;
-    top: 1438.264px;
-    width: 269px;
-    height: 168px;
-    z-index: 128;
+.lightbulb {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
 }
 
-#wwi {
-    text-align: right;
-    text-align: top;
-    font-size: 42px;
-    color: rgb(0, 188, 156);
-    font-weight: bold;
+.creativity {
+  font-family: "Lato", sans-serif;
+  color: #506a85;
 }
 
-.bcr {
-    font-family: "Lato";
-    color: #506a85;
-    font-weight: bold;
-    line-height: 1.227;
-    text-align: center;
-    left: 564.538px;
-    top: 1211.135px;
-    width: 785px;
-    height: 166px;
-    z-index: 130;
+.star {
+  text-align: right;
+  text-align: top;
+  font-size: 42px;
+  color: rgb(0, 188, 156);
+  font-weight: bold;
 }
 
-.clw {
-    font-family: "Lato", sans-serif;
-    color: #73879c;
-    font-size: 12px;
+.quality {
+  font-family: "Lato", sans-serif;
+  color: #506a85;
 }
+
+.data {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.frameColor1 {
+  background-color: #f2f5f7;
+}
+
+.4thContainerMargin {
+  margin: 20%, 40%, 20%, 40%;
+}
+
+.works {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  margin-bottom: 10px;
+  font-weight: bold;
+  width: auto;
+  height: auto;
+}
+
+.workInfo {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85;
+  margin-bottom: 25px;
+  width: auto;
+  height: auto;
+}
+
+.showcase1 {
+  width: 350px;
+  height: 240px;
+  z-index: 118;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.captionBackground1 {
+  background-color: #ffffff;
+  width: 350px;
+  height: 68px;
+  z-index: 118;
+  margin-left: -1px;
+  margin-right: auto;
+}
+
+.caption1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+.caption1b {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85; 
+  font-size: 11px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase2 {
+  width: 350px;
+  height: 240px;
+  z-index: 118;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.captionBackground2 {
+  background-color: #ffffff;
+  width: 350px;
+  height: 68px;
+  margin-right: auto;
+  margin-left: -1px;
+}
+
+.caption2 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 15px;
+}
+
+.caption2b {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85; 
+  font-size: 11px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#alignCarousel {
+  outline-offset: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#owl-example .showcase {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+#owl-example .showcase img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.showcase3 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.showcase4 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.showcase5 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.showcase6 {
+  width: 189px;
+  height: 130px;
+  z-index: 118;
+  margin: 7px;
+}
+
+.connect {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: #506a85;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.connectInfo {
+  text-align: center;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #506a85;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.getInTouch {
+  font-size: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  margin-left: 115px;
+  width: 130px;
+  height: 35px;
+  z-index: 179;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.bottomPanelColor {
+  background-color: #2f4052;
+}
+
+.bottomPanel {
+  padding: 30, 90, 30, 90;
+  margin: 20, 20, 20, 20;
+}
+
+.who {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reenSmall {
+    width: 95px;
+    height: 27px;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whoInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutLink {
+  font-size: 11px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  font-weight: bold;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.hacker {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hackerInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  text-decoration: underline;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storyName {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inTouch {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inTouchInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomPanelSpace {
+  margin-bottom: 50px;
+}
+
+#subForm {
+  background-color: #4e5c6c;
+  font-size: 9px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#emailBox {
+  color: #ffffff;
+  width: 108px;
+  height: 28px;
+  background-color: #4e5c6c;
+  border-color: gray;
+  margin: 6px;
+  text-align: center;
+}
+
+#subscribe {
+  font-size: 12px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 3px;
+  border-color: rgb(0, 188, 156);
+  background-color: rgb(0, 188, 156);
+  box-shadow: inset 0px -2px 0px 0px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin: 6px;
+}
+
+.updates {
+  font-family: "Lato", sans-serif;
+  color: #ffffff;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.updateInfo {
+  font-size: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #a3b1bf;
+  margin-bottom: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.footerColor {
+  background-color: #283645;
+}
+
+.footerContainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.end {
+  color: #707e8c;
+  font-size: 11px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: auto;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.endLinks li{
+  display: inline-block;
+  margin-top: 11px;
+  margin-bottom: 8px;
+}
+
+.endLinks li a {
+    margin-right: 10px;
+    color: #707e8c;
+    font-size: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 11px;
+    margin-top: 8px;
+}
+
+.carrot {
+  margin-top: 11px;
+  width: 25px;
+  height: 25px;
+  margin-left: auto;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 599px) {}
+
+@media screen and (min-width: 980px) {}
+/*
+miniNavBar color:
+#f5f7fa
+
+Latest Works Background Color (Light Gray):
+#f2f5f7
+
+Who We Are Background Color(Navy Blue):
+#2f4052
+
+Footer Background Color(Darker Blue):
+#283645
+
+Green Box Color:
+#00bc9c
+
+Font Color(Bluish Gray):
+#506a85
+
+White Font:
+#ffffff
+*/
